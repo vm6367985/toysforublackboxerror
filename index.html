@@ -1,25 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>ToysForU</title>
-	<style>
-		/* Global Styles */
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		
-		/* Header Styles */
-		.header {
-			background-color: #FFC080;
-			padding: 20px;
-			text-align: center;
-		}
-		
-		.header button {
-			background-color: #4CAF50;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-		
+	/* Header Styles */
+	.header {
+		background-color: #FFC080;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.header button {
+		background-color: #4CAF50;
+		color: #fff;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-right: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	
+	/* Body Styles */
+	.body {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 20px;
+	}
+	
+	.toys {
+		margin: 20px;
+		width: 250px;
+		background-color: #fff;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.toys img {
+		width: 100%;
+		height: 150px;
+		object-fit: cover;
+		border-radius: 10px 10px 0 0;
+	}
+	
+	.toys h2 {
+		margin-top: 0;
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: #333;
+	}
+	
+	.toys p {
+		margin-bottom: 20px;
+		color: #555;
+	}
+	
+	/* Footer Styles */
+	.footer {
+		background-color: #333;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		clear: both;
+		font-size: 14px;
+	}
+	
+	/* Form Styles */
+	.form {
+		margin: 20px;
+		padding: 20px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.form h2 {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+		color: #333;
+	}
+	
+	.form label {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 14px;
+		color: #555;
+	}
+	
+	.form input[type="text"],.form input[type="email"],.form textarea {
+		width: 100%;
+		padding: 10px;
+		margin-bottom
