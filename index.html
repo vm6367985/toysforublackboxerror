@@ -1,21 +1,25 @@
+<!DOCTYPE html> <html lang="en"> <head> <title>ToysForU</title> <style> /* Global Styles */ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #FFC080; /* Added colorful background */ }
+Copy code
 	/* Header Styles */
 	.header {
-		background-color: #FFC080;
+		background-color: #4CAF50;
 		padding: 20px;
 		text-align: center;
 	}
 	
 	.header button {
-		background-color: #4CAF50;
-		color: #fff;
+		background-color: #fff;
+		color: #4CAF50;
 		padding: 10px 20px;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
-		margin-right: 10px;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 1px;
+		transition: background-color 0.3s ease;
+	}
+	
+	.header button:hover {
+		background-color: #3e8e41;
+		color: #fff;
 	}
 	
 	/* Body Styles */
@@ -45,14 +49,11 @@
 	
 	.toys h2 {
 		margin-top: 0;
-		margin-bottom: 10px;
-		font-size: 24px;
-		color: #333;
+		color: #4CAF50;
 	}
 	
 	.toys p {
 		margin-bottom: 20px;
-		color: #555;
 	}
 	
 	/* Footer Styles */
@@ -62,7 +63,6 @@
 		padding: 10px;
 		text-align: center;
 		clear: both;
-		font-size: 14px;
 	}
 	
 	/* Form Styles */
@@ -77,18 +77,55 @@
 	
 	.form h2 {
 		margin-top: 0;
-		margin-bottom: 20px;
-		font-size: 24px;
-		color: #333;
+		color: #4CAF50;
 	}
 	
 	.form label {
 		display: block;
 		margin-bottom: 10px;
-		font-size: 14px;
-		color: #555;
+		color: #333;
 	}
 	
 	.form input[type="text"],.form input[type="email"],.form textarea {
 		width: 100%;
-		padding
+		padding: 10px;
+		margin-bottom: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	
+	.form input[type="submit"] {
+		background-color: #4CAF50;
+		color: #fff;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+	
+	.form input[type="submit"]:hover {
+		background-color: #3e8e41;
+	}
+</style>
+</head> <body> <!-- Header --> <header class="header"> <h1 style="color: #fff;">ToysForU</h1> <button>Home</button> <button>Products</button> <button>Contact Us</button> </header>
+Copy code
+<!-- Body -->
+<div class="body">
+	<div class="toys">
+		<img src="toy1.jpg" alt="Toy 1">
+		<h2>Toy 1</h2>
+		<p>This is a description of Toy 1. It's a fun toy for kids!</p>
+		<p>Price: $10.99</p>
+	</div>
+	<div class="toys">
+		<img src="toy2.jpg" alt="Toy 2">
+		<h2>Toy 2</h2>
+		<p>This is a description of Toy 2. It's a educational toy for kids!</p>
+		<p>Price: $15.99</p>
+	</div>
+	<div class="toys">
+		<img src="toy3.jpg" alt="Toy 3">
+		<h2>Toy 3</h2>
+		<p>This is a description of Toy 3. It's a fun toy for kids!</p>
+	
